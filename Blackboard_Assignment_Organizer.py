@@ -59,7 +59,7 @@ def main():
                 zip_ref = zipfile.ZipFile(source, 'r')
                 zip_ref.extractall(target)
                 zip_ref.close()
-            elif file.endswith('.txt'):
+            else:
                 print("Copying: " + source)
                 copy2(source, target)
 
