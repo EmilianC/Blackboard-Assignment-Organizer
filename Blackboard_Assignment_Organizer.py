@@ -11,7 +11,7 @@ def load_class_dictionary(students_file, students_dict):
     for (last_name, first_name, student_id) in matches:
         if student_id in students_dict:
             raise RuntimeError("Student ID appears twice in class list.")
-        students_dict[student_id] = first_name + " " + last_name
+        students_dict[student_id] = last_name + " " + first_name
 
 
 def get_id_from_file(file_name):
