@@ -24,7 +24,7 @@ def get_id_from_file(file_name):
 
 def main():
     if len(sys.argv) != 4:
-        print("invalid argument usage.");
+        print("Usage: organizer.py class_list.csv source_dir target_dir");
         return
 
     students_file = sys.argv[1]
