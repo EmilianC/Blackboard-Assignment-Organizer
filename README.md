@@ -4,6 +4,8 @@ Extracts all submissions for an assignment and isolates individual submissions i
 # Usage
 ### First Time setup:
 For each group of students you intend to use the script with, you must download the class's information as a .csv file.
+
+---
 ![Step 1](GradeCenter.png)
 
 ---
